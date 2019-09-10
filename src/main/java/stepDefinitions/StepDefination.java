@@ -9,7 +9,11 @@ import cucumber.api.java.en.When;
 import io.godiscovery.lib.BaseTest;
 import io.godiscovery.lib.GoDiscoveryLib;
 import io.godiscovery.pom.DiscoveryHomePage;
-
+/**
+ * Step definitions for scenario's are define here
+ * @author user
+ *
+ */
 public class StepDefination extends BaseTest{
 	public static DiscoveryHomePage dhp;
 	@Given("^open browser and enter url$")

@@ -1,0 +1,5 @@
+io\godiscovery\runner\TestRunner.class
+io\godiscovery\lib\GoDiscoveryLib.class
+io\godiscovery\pom\DiscoveryHomePage.class
+stepDefinitions\StepDefination.class
+io\godiscovery\lib\BaseTest.class

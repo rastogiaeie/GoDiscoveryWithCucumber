@@ -58,57 +58,51 @@ formatter.match({
   "location": "StepDefination.open_browser_and_enter_url()"
 });
 formatter.result({
-  "duration": 19725314700,
-  "status": "passed"
+  "duration": 132182444300,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d76.0.3809.132)\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027DESKTOP-KLIGK1A\u0027, ip: \u0027192.168.43.161\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5b0dca8139a2804d701608f711efefb5\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:277)\r\n\tat io.godiscovery.lib.BaseTest.initialization(BaseTest.java:67)\r\n\tat stepDefinitions.StepDefination.open_browser_and_enter_url(StepDefination.java:21)\r\n\tat ✽.Given open browser and enter url(godiscovery.feature:5)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "StepDefination.title_of_home_page_is_Discovery_Official_Site()"
 });
 formatter.result({
-  "duration": 10379100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.user_clicks_on_shows_and_selects_see_all_shows()"
 });
 formatter.result({
-  "duration": 1263465100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.select_apollo_shows_and_verify_the_favorites_status_and_change_the_status_of_favorites_and_verify_status()"
 });
 formatter.result({
-  "duration": 21856350500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.user_clicks_on_menu_option()"
 });
 formatter.result({
-  "duration": 124201300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.user_click_on_My_videos_option()"
 });
 formatter.result({
-  "duration": 206094400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.verify_the_items_are_added_in_My_favorites()"
 });
 formatter.result({
-  "duration": 5582313800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.close_browser()"
 });
 formatter.result({
-  "duration": 243579100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 14,
@@ -162,51 +156,45 @@ formatter.match({
   "location": "StepDefination.open_browser_and_enter_url()"
 });
 formatter.result({
-  "duration": 13118520300,
-  "status": "passed"
+  "duration": 42761176500,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d76.0.3809.132)\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027DESKTOP-KLIGK1A\u0027, ip: \u0027192.168.43.161\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 82351d8e493563008064f22304d03e24\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:277)\r\n\tat io.godiscovery.lib.BaseTest.initialization(BaseTest.java:67)\r\n\tat stepDefinitions.StepDefination.open_browser_and_enter_url(StepDefination.java:21)\r\n\tat ✽.Given open browser and enter url(godiscovery.feature:16)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "StepDefination.title_of_home_page_is_Discovery_Official_Site()"
 });
 formatter.result({
-  "duration": 6966800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.scroll_down_to_populer_show()"
 });
 formatter.result({
-  "duration": 134563000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.go_to_last_Video_by_pressing_right_Arrow()"
 });
 formatter.result({
-  "duration": 2577326300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.click_on_Explore_show()"
 });
 formatter.result({
-  "duration": 733914700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.click_on_more_show()"
 });
 formatter.result({
-  "duration": 9489771200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.write_title_and_duration_of_show_into_a_file()"
 });
 formatter.result({
-  "duration": 30787292100,
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (e923a2daeb390bc8f6f2269685acb8c7)] -\u003e xpath: //p[@class\u003d\u0027episodeTitle\u0027]] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027DESKTOP-KLIGK1A\u0027, ip: \u0027192.168.43.161\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e923a2daeb390bc8f6f2269685acb8c7\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat io.godiscovery.pom.DiscoveryHomePage.writeTitleAndDuration(DiscoveryHomePage.java:209)\r\n\tat stepDefinitions.StepDefination.write_title_and_duration_of_show_into_a_file(StepDefination.java:78)\r\n\tat ✽.Then write title and duration of show into a file(godiscovery.feature:22)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.close_browser()"

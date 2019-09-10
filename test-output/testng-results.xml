@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="107298" started-at="2019-09-08T21:46:26Z" finished-at="2019-09-08T21:48:13Z">
+  <suite name="Default suite" duration-ms="273588" started-at="2019-09-09T11:38:55Z" finished-at="2019-09-09T11:43:29Z">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:io.godiscovery.runner.TestRunner@553f17c]" name="feature" class="io.godiscovery.runner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:io.godiscovery.runner.TestRunner@271053e1]" name="feature" class="io.godiscovery.runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="107298" started-at="2019-09-08T21:46:26Z" finished-at="2019-09-08T21:48:13Z">
+    <test name="Default test" duration-ms="273588" started-at="2019-09-09T11:38:55Z" finished-at="2019-09-09T11:43:29Z">
       <class name="io.godiscovery.runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:io.godiscovery.runner.TestRunner@553f17c]" name="setUpClass" is-config="true" duration-ms="287" started-at="2019-09-08T21:46:26Z" finished-at="2019-09-08T21:46:26Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:io.godiscovery.runner.TestRunner@271053e1]" name="setUpClass" is-config="true" duration-ms="328" started-at="2019-09-09T11:38:55Z" finished-at="2019-09-09T11:38:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:io.godiscovery.runner.TestRunner@553f17c]" name="feature" duration-ms="105966" started-at="2019-09-08T21:46:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-08T21:48:12Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:io.godiscovery.runner.TestRunner@271053e1]" name="feature" duration-ms="272884" started-at="2019-09-09T11:38:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-09T11:43:29Z">
           <params>
             <param index="0">
               <value>
@@ -24,22 +24,24 @@
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (e923a2daeb390bc8f6f2269685acb8c7)] -> xpath: //p[@class='episodeTitle']] (tried for 30 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=76.0.3809.132)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-KLIGK1A', ip: '192.168.43.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e923a2daeb390bc8f6f2269685acb8c7]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6859989c9d6b8ca45fba9aa9d9fb4a31]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (e923a2daeb390bc8f6f2269685acb8c7)] -> xpath: //p[@class='episodeTitle']] (tried for 30 second(s) with 500 milliseconds interval)
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=76.0.3809.132)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-KLIGK1A', ip: '192.168.43.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e923a2daeb390bc8f6f2269685acb8c7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6859989c9d6b8ca45fba9aa9d9fb4a31
 at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-at io.godiscovery.runner.TestRunner.feature(TestRunner.java:37)
+at io.godiscovery.runner.TestRunner.feature(TestRunner.java:41)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -65,24 +67,34 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (e923a2daeb390bc8f6f2269685acb8c7)] -> xpath: //p[@class='episodeTitle']] (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=76.0.3809.132)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-KLIGK1A', ip: '192.168.43.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e923a2daeb390bc8f6f2269685acb8c7
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-at io.godiscovery.pom.DiscoveryHomePage.writeTitleAndDuration(DiscoveryHomePage.java:209)
-at stepDefinitions.StepDefination.write_title_and_duration_of_show_into_a_file(StepDefination.java:78)
-at ✽.Then write title and duration of show into a file(godiscovery.feature:22)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6859989c9d6b8ca45fba9aa9d9fb4a31
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+at io.godiscovery.lib.BaseTest.initialization(BaseTest.java:65)
+at stepDefinitions.StepDefination.open_browser_and_enter_url(StepDefination.java:21)
+at ✽.Given open browser and enter url(godiscovery.feature:5)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:io.godiscovery.runner.TestRunner@553f17c]" name="tearDownClass" is-config="true" duration-ms="909" started-at="2019-09-08T21:48:12Z" finished-at="2019-09-08T21:48:13Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:io.godiscovery.runner.TestRunner@271053e1]" name="tearDownClass" is-config="true" duration-ms="265" started-at="2019-09-09T11:43:29Z" finished-at="2019-09-09T11:43:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

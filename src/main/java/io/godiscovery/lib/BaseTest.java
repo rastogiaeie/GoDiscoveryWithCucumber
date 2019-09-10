@@ -6,16 +6,24 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+/**
+ * Ashish
+ * @author user
+ *
+ */
 
 public class BaseTest {
-	
+	private static final Logger logger = Logger.getLogger(BaseTest.class);
 	public static WebDriver driver;
 	public static Properties prop= new Properties();
-	
+	/**
+	 * read data from property file
+	 */
 	public  static void loadProperty()
 	{
 		String path=".\\src\\main\\resources\\config\\config.properties";
@@ -33,7 +41,9 @@ public class BaseTest {
 		
 	}
 	
-	
+	/**
+	 * open browser, enter url and maximize browser
+	 */
 	public static void initialization()
 	{
 		loadProperty();
@@ -50,11 +60,12 @@ public class BaseTest {
 		}
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
+		
 		String title = driver.getTitle();
-		System.out.println(title);
+		logger.info("title of home page is "+ title);
 		
 	}
 	
